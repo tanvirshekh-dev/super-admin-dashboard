@@ -6,7 +6,7 @@ import Logo from "../assets/মুন্সীগঞ্জ_পলিটেকন
 const Sidebar = () => {
   return (
     <aside className="flex flex-col w-72 h-screen bg-white border-r border-gray-200 p-5">
-      {/* Institution Logo Card */}
+      {/* Institution Logo */}
       <div className="mb-10 flex justify-center">
         <div className="w-full p-4 flex justify-center items-center border-0">
           <img 

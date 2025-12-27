@@ -8,7 +8,7 @@ const ForgotPassword = ({ isOpen, onClose }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Add logic here to send the reset email
+    // reset email
     console.log("Submit clicked");
   };
 

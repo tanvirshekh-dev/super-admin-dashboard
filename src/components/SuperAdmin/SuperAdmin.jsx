@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import TanvirImg from "../../assets/super-admin.png";
 import SuperAdminEditInfo from "../SuperAdmin/SuperAdminEditInfo";
 import { LuEyeOff } from "react-icons/lu";
-import ChangePassword from "./ChangedPassword";
 import ChangedPassword from "./ChangedPassword";
 
 const SuperAdmin = () => {

@@ -6,14 +6,14 @@ const Header = () => {
 
   return (
     <header className="flex items-center justify-between px-8 py-4 bg-white border-b border-gray-200">
-      {/* Left Side: Title */}
+      {/* Left Side */}
       <div>
         <h1 className="text-2xl font-bold text-[#002B44]">
           Admin Dashboard Management
         </h1>
       </div>
 
-      {/* Right Side: Profile Section */}
+      {/* Right Side */}
       <div className="flex items-center gap-3">
         {/* Profile Image */}
         <div className="w-12 h-12 overflow-hidden rounded-full bg-gray-200">

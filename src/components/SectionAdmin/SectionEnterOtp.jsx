@@ -10,7 +10,7 @@ const SectionEnterOtp = ({ isOpen, onClose }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Logic to verify OTP
+    // verify OTP
     console.log("OTP Submitted:", otp);
   };
 

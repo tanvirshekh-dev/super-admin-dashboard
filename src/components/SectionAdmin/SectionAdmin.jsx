@@ -1,10 +1,8 @@
 import React, { useState } from "react";
 import AtikurImg from "../../assets/atikur.jpg";
-// import SuperAdminEditInfo from "../SuperAdmin/SuperAdminEditInfo";
 import { LuEyeOff } from "react-icons/lu";
 import SectionAdminEditInfo from "./SectionAdminEditInfo";
 import ChangePassword from "./ChangePassword";
-// import ChangePassword from "./ChangedPassword";
 
 const SectionAdmin = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -25,9 +23,7 @@ const SectionAdmin = () => {
             alt="Profile"
           />
           <div>
-            <h3 className="text-2xl font-bold text-[#002B44]">
-              Atikur rahman
-            </h3>
+            <h3 className="text-2xl font-bold text-[#002B44]">Atikur rahman</h3>
             <p className="text-gray-400">atikur@gmail.com</p>
           </div>
         </div>
@@ -95,7 +91,7 @@ const SectionAdmin = () => {
               </button>
             </div>
             <button
-              onClick={()=> setIsPasswordModalOpen(true)}
+              onClick={() => setIsPasswordModalOpen(true)}
               type="button"
               className="w-full md:w-auto cursor-pointer px-16 py-4 bg-[#00485E] text-white rounded-xl font-bold text-lg hover:bg-[#003646] transition-colors shadow-md"
             >
